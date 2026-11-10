@@ -2,6 +2,17 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 
 const projects: IProjectItem[] = [
   {
+    "id": "promptly",
+    "title": "Promptly",
+    "description": "Promptly fixes your grammar and rewrites your prompts with a clear goal, context and output format, so ChatGPT, Claude and Gemini get it right the first time.",
+    "icon": "/skills/react.svg",
+    "repoType": RepoType.Public,
+    "projectType": ProjectType.Personal,
+    "githubUrl": "https://github.com/Fawwaz-GitHub/Promptly",
+    "url": "https://promptly-web-ecru.vercel.app/",
+    "tags": ["FastAPI", "React", "Gen AI", "Extension"]
+  },
+  {
     "id": "ecom-dashboard-fullstack",
     "title": "E-Commerce Analytics Dashboard",
     "description": "A comprehensive full-stack dashboard application providing real-time analytics, inventory management, and sales tracking for e-commerce businesses with interactive data visualization.",
@@ -22,17 +33,6 @@ const projects: IProjectItem[] = [
     "githubUrl": "https://github.com/Fawwaz-GitHub/FlipKart-Clone",
     "url": "https://flippedcart.onrender.com/",
     "tags": ["React", "Redux", "Node.js", "MongoDB", "E-commerce"]
-  },
-  {
-    "id": "spotify-clone",
-    "title": "Spotify Music Streaming Clone",
-    "description": "A modern music streaming interface replicating Spotify's core features with playlist management, music playback controls, and user-friendly audio experience. (Requires Spotify Premium for full functionality)",
-    "icon": "/skills/react.svg",
-    "repoType": RepoType.Public,
-    "projectType": ProjectType.Personal,
-    "githubUrl": "https://github.com/Fawwaz-GitHub/SpotifyClone",
-    "url": "https://cloned-spotify.netlify.app/",
-    "tags": ["React", "Spotify API", "Music Streaming", "Web Audio"]
   },
   {
     "id": "football-quiz-game",
